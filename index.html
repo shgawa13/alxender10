@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/_footer.css" />
+    <link rel="stylesheet" href="./styles/_header.css" />
+    <link rel="stylesheet" href="./styles/_main.css" />
+    <link rel="stylesheet" href="./styles/_reset.css" />
+    <link rel="stylesheet" href="./styles/_responsive.css" />
+    <title>Resume Adam Dańda</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-upper">
+          <h1 class="heading-primary">Resume</h1>
+          <button class="hamburger">
+            <div class="hamburger-inner">
+              <span class="hamburger-line"></span>
+            </div>
+          </button>
+          <nav class="navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="#main" class="navigation-link">Home</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#ProfessionalSkills" class="navigation-link"
+                  >Professionals Skills</a
+                >
+              </li>
+              <li class="navigation-item">
+                <a href="#Portfolio" class="navigation-link">Portfolio</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#WorkExperience" class="navigation-link"
+                  >Work Experience</a
+                >
+              </li>
+              <li class="navigation-item">
+                <a href="#Education" class="navigation-link">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-bottom">
+          <div class="header-bottom-inner">
+            <img src="assets/selfie.png" alt="Selfie" class="selfie" />
+            <p class="name">Adam Dańda</p>
+            <p class="about-me">Frontend and Backend Developer</p>
+            <div class="btns-container">
+              <button class="util-btn">Hire Me</button>
+              <button class="util-btn">Download CV</button>
+            </div>
+          </div>
+        </div>
+        <ul class="links-list">
+          <li class="links-list-item">
+            <a class="link" href="https://www.facebook.com">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="links-list-item">
+            <a class="link" href="https://www.facebook.com">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="links-list-item">
+            <a class="link" href="https://www.facebook.com">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="links-list-item">
+            <a class="link" href="https://www.facebook.com">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </header>
+      <main class="main" id="main">
+        <div class="main-inner">
+          <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary">About</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="info-container">
+              <h2 class="heading-secondary">Basic Information</h2>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Age:</h3>
+                <span class="tile-span">22</span>
+              </div>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Email:</h3>
+                <span class="tile-span">mail@wp.pl</span>
+              </div>
+              <div class="single-info-container">
+                <h3 class="heading-tetriary">Phone:</h3>
+                <span class="tile-span">+48 928 828 832</span>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary" id="ProfessionalSkills">
+                Professional Skills
+              </h2>
+            </div>
+            <div class="grid-skills" id="skills">
+              <div class="grid-skills-item">
+                <label for="Java" class="progress-title">Java</label>
+                <div id="Java" class="skill-progress" value="7" max="100">
+                  <span style="--meter-value: 70" class="width"></span>
+                </div>
+              </div>
+              <div class="grid-skills-item">
+                <label for="SQL" class="progress-title">SQL</label>
+                <div id="SQL" class="skill-progress" value="5" max="100">
+                  <span style="--meter-value: 21" class="width"></span>
+                </div>
+              </div>
+              <div class="grid-skills-item">
+                <label for="Computer Science" class="progress-title"
+                  >Computer Science</label
+                >
+                <div
+                  id="Computer Science"
+                  class="skill-progress"
+                  value="97"
+                  max="100"
+                >
+                  <span style="--meter-value: 96" class="width"></span>
+                </div>
+              </div>
+              <div class="grid-skills-item">
+                <label for="Frontend" class="progress-title">Frontend</label>
+                <div id="Frontend" class="skill-progress" value="17" max="100">
+                  <span style="--meter-value: 32" class="width"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary" id="Portfolio">Portfolio</h2>
+            </div>
+            <div class="grid-projects">
+              <div class="grid-projects-item">
+                <img
+                  src="assets/projekt1.jpg"
+                  alt="Pierwszy projekt"
+                  class="project-image"
+                />
+                <span class="project-image-hover">Content Plan App</span>
+              </div>
+              <div class="grid-projects-item">
+                <img
+                  src="assets/projekt2.jpg"
+                  alt="Drugi projekt"
+                  class="project-image"
+                />
+                <span class="project-image-hover">Hacker App</span>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary" id="WorkExperience">
+                Work Experience
+              </h2>
+            </div>
+            <div class="grid">
+              <div class="grid-item">
+                <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
+                  <div class="container">
+                    <h4><b>Front End Developer</b></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
+                  <div class="container">
+                    <h4><b>Backend + Frontend Developer</b></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
+                  <div class="container">
+                    <h4><b>Big Data Scientist</b></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="info-container">
+              <h2 class="heading-secondary" id="Education">Education</h2>
+            </div>
+            <div class="grid">
+              <div class="grid-item">
+                <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
+                  <div class="container">
+                    <h4><b>Front End Developer</b></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
+                  <div class="container">
+                    <h4><b>Backend + Frontend Developer</b></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="card">
+                  <div class="company">
+                    <span class="date">March 1995</span>
+                    <span class="date">January 1999</span>
+                  </div>
+                  <div class="container">
+                    <h4><b>Backend + Frontend Developer</b></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="footer-name">Adam Dańda</p>
+        <p class="copyright">© All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
